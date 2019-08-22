@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    
+
+}
+header nav{
+    /* gjør om menyen til et rutenett */
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    justify-content: start;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: center;
+}
+header {
+    color: white;
+    text-decoration: none;
+
+}
+header a { 
+    color: white;
+    text-decoration: none;
+    /* 16 opp og ned - 32 høyre og venstre */
+    padding: 16px 32px
+
+}
+
+.active{
+    background-color: plum;
+    
+}

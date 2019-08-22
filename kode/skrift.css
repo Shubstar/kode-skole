@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+p{
+    font-size: 48px;
+    /*hvordan angir vi skrift-farge */
+    color: crimson;
+    color:rgb(173, 128, 128);
+    /*  a i rgba står for alpha 
+    1 er helt synlig 
+    0 er helt gjennomsiktig */
+    color: rgba(20, 20, 20, 0.3);
+     
+}
