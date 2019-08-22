@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #eee;
+    padding: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    
+    
+}
+header{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+
+
+}
+.benifits{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+.benfits img{
+    width: 50;
+}
+.benfits h1{
+    font-weight: 200px;
+}
