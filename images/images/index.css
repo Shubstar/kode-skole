@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #eee;
+    padding: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+}
+main{
+    background-color: white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    
+    
+}
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 900;
+}
+.benifits{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+.benifits img{
+    width: 50%;
+}
+.benifits h1{
+    font-weight: 200px;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.benifits h2{
+    font-size: 13px;
+    letter-spacing: 2px;
+
+}
+
+@media (max-width: 970px) {
+    .benifits {
+        
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .benifits {
+        
+        grid-template-columns: 1fr;
+        
+    }
+}
